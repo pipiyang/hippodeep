@@ -39,8 +39,8 @@ After download, you can run
 Then, to use the program, simply run:
 
 `deepseg1.sh example_brain_t1.nii.gz`.
-    on Windows
-    './deepseg1.sh example_brain_t1.nii.gz'
+on Windows:
+    `./deepseg1.sh example_brain_t1.nii.gz`
 The resulting segmentation should be stored as `example_brain_t1_mask_L.nii.gz` (or R for right).
 
 The volumes values are stored in `example_brain_t1_hippo_vol_LR.txt`, Left then Right, in mm^3. Also, `example_brain_t1_eTIV.txt` has an estimate of the Intracranial-Volume.
